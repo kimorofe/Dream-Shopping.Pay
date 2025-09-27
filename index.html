@@ -20,13 +20,11 @@
             --invoice-header: #0078B7;
             --invoice-border: #e0e0e0;
         }
-
         * {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
         }
-
         body {
             font-family: 'Tajawal', 'Arial', sans-serif;
             background: linear-gradient(135deg, #f5f7fa 0%, #e6f0ff 100%);
@@ -35,12 +33,10 @@
             padding: 20px;
             min-height: 100vh;
         }
-
         .container {
             max-width: 800px;
             margin: 0 auto;
         }
-
         .header {
             text-align: center;
             margin-bottom: 30px;
@@ -50,7 +46,6 @@
             border-radius: 10px;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
         }
-
         .header h1 {
             font-size: 28px;
             margin-bottom: 10px;
@@ -59,12 +54,10 @@
             justify-content: center;
             gap: 10px;
         }
-
         .header p {
             font-size: 16px;
             opacity: 0.9;
         }
-
         .card {
             background-color: white;
             border-radius: 10px;
@@ -73,7 +66,6 @@
             overflow: hidden;
             border: 1px solid rgba(0, 0, 0, 0.05);
         }
-
         .card-header {
             background-color: var(--primary-color);
             color: white;
@@ -81,15 +73,12 @@
             text-align: center;
             border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         }
-
         .card-body {
             padding: 25px;
         }
-
         .form-group {
             margin-bottom: 20px;
         }
-
         .form-group label {
             display: block;
             margin-bottom: 8px;
@@ -99,7 +88,6 @@
             align-items: center;
             gap: 8px;
         }
-
         .form-control {
             width: 100%;
             padding: 12px 15px;
@@ -109,14 +97,12 @@
             transition: all 0.3s;
             background-color: #f9f9f9;
         }
-
         .form-control:focus {
             border-color: var(--primary-color);
             outline: none;
             box-shadow: 0 0 0 3px rgba(0, 120, 183, 0.15);
             background-color: white;
         }
-
         .btn {
             display: inline-block;
             background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-hover) 100%);
@@ -136,32 +122,25 @@
             justify-content: center;
             gap: 8px;
         }
-
         .btn:hover {
             transform: translateY(-2px);
             box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
         }
-
         .btn i {
             margin-left: 0;
         }
-
         .btn-success {
             background: linear-gradient(135deg, var(--success-color) 0%, #218838 100%);
         }
-
         .btn-success:hover {
             background: linear-gradient(135deg, #218838 0%, var(--success-color) 100%);
         }
-
         .btn-danger {
             background: linear-gradient(135deg, var(--error-color) 0%, #c82333 100%);
         }
-
         .btn-danger:hover {
             background: linear-gradient(135deg, #c82333 0%, var(--error-color) 100%);
         }
-
         .modal {
             display: none;
             position: fixed;
@@ -173,7 +152,6 @@
             background-color: rgba(0, 0, 0, 0.7);
             animation: fadeIn 0.3s;
         }
-
         .modal-content {
             background-color: white;
             margin: 10% auto;
@@ -186,7 +164,6 @@
             position: relative;
             animation: slideDown 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         }
-
         .close-modal {
             position: absolute;
             top: 15px;
@@ -196,38 +173,31 @@
             cursor: pointer;
             transition: all 0.3s;
         }
-
         .close-modal:hover {
             color: var(--primary-color);
             transform: scale(1.1);
         }
-
         .modal-icon {
             font-size: 60px;
             margin-bottom: 20px;
         }
-
         .modal-icon.success {
             color: var(--success-color);
         }
-
         .modal-icon.error {
             color: var(--error-color);
         }
-
         .modal-title {
             font-size: 22px;
             margin-bottom: 15px;
             color: var(--text-color);
             font-weight: bold;
         }
-
         .modal-message {
             margin-bottom: 25px;
             font-size: 16px;
             line-height: 1.6;
         }
-
         .invoice-number {
             font-size: 24px;
             font-weight: bold;
@@ -238,7 +208,6 @@
             border-radius: 8px;
             display: inline-block;
         }
-
         .modal-btn {
             padding: 12px 25px;
             background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-hover) 100%);
@@ -251,12 +220,10 @@
             font-weight: 600;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
         }
-
         .modal-btn:hover {
             transform: translateY(-2px);
             box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
         }
-
         .record {
             border: 1px solid var(--border-color);
             border-radius: 8px;
@@ -266,24 +233,20 @@
             box-shadow: 0 3px 8px rgba(0, 0, 0, 0.06);
             transition: all 0.3s;
         }
-
         .record:hover {
             transform: translateY(-3px);
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
         }
-
         .record-header {
             display: flex;
             justify-content: space-between;
             align-items: center;
             margin-bottom: 10px;
         }
-
         .record-actions {
             display: flex;
             gap: 10px;
         }
-
         .action-btn {
             padding: 8px 12px;
             border-radius: 5px;
@@ -296,25 +259,20 @@
             font-weight: 600;
             border: none;
         }
-
         .whatsapp-btn {
             background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
             color: white;
         }
-
         .whatsapp-btn:hover {
             background: linear-gradient(135deg, #128C7E 0%, #25D366 100%);
         }
-
         .delete-btn {
             background: linear-gradient(135deg, var(--error-color) 0%, #c82333 100%);
             color: white;
         }
-
         .delete-btn:hover {
             background: linear-gradient(135deg, #c82333 0%, var(--error-color) 100%);
         }
-
         .record-details {
             display: none;
             padding-top: 15px;
@@ -322,12 +280,10 @@
             margin-top: 15px;
             animation: fadeIn 0.5s;
         }
-
         .search-bar {
             margin-bottom: 20px;
             position: relative;
         }
-
         .search-input {
             width: 100%;
             padding: 12px 15px 12px 45px;
@@ -337,7 +293,6 @@
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.06);
             background-color: #f9f9f9;
         }
-
         .search-icon {
             position: absolute;
             left: 15px;
@@ -345,7 +300,6 @@
             transform: translateY(-50%);
             color: #777;
         }
-
         .payment-info {
             display: none;
             margin-top: 10px;
@@ -355,13 +309,11 @@
             animation: fadeIn 0.5s;
             border-left: 4px solid var(--primary-color);
         }
-
         .payment-info p {
             margin-bottom: 5px;
             font-weight: 600;
             color: var(--text-color);
         }
-
         .copy-btn {
             background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-hover) 100%);
             color: white;
@@ -377,28 +329,23 @@
             gap: 8px;
             font-weight: 600;
         }
-
         .copy-btn:hover {
             transform: translateY(-2px);
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
-
         .payment-method-option {
             display: flex;
             align-items: center;
             padding: 8px;
         }
-
         .payment-method-option img {
             width: 24px;
             height: 24px;
             margin-right: 10px;
         }
-
         .file-input {
             display: none;
         }
-
         .file-label {
             display: block;
             padding: 15px;
@@ -409,35 +356,29 @@
             cursor: pointer;
             transition: all 0.3s;
         }
-
         .file-label:hover {
             background-color: rgba(0, 120, 183, 0.1);
             border-color: var(--primary-hover);
         }
-
         .file-name {
             margin-top: 8px;
             font-size: 14px;
             color: var(--primary-color);
             font-weight: 600;
         }
-
         .payment-icon {
             width: 24px;
             height: 24px;
             margin-right: 10px;
             vertical-align: middle;
         }
-
         .binance-btn {
             background: linear-gradient(135deg, var(--binance-color) 0%, #e0a800 100%);
             color: black;
         }
-
         .binance-btn:hover {
             background: linear-gradient(135deg, #e0a800 0%, var(--binance-color) 100%);
         }
-
         .invoice-card {
             background-color: var(--invoice-bg);
             border-radius: 10px;
@@ -446,7 +387,6 @@
             overflow: hidden;
             border: 1px solid var(--invoice-border);
         }
-
         .invoice-header {
             background: linear-gradient(135deg, var(--invoice-header) 0%, var(--primary-hover) 100%);
             color: white;
@@ -454,32 +394,26 @@
             text-align: center;
             border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         }
-
         .invoice-body {
             padding: 20px;
         }
-
         .invoice-row {
             display: flex;
             justify-content: space-between;
             padding: 10px 0;
             border-bottom: 1px dashed var(--invoice-border);
         }
-
         .invoice-row:last-child {
             border-bottom: none;
         }
-
         .invoice-label {
             font-weight: 600;
             color: var(--text-color);
         }
-
         .invoice-value {
             color: var(--primary-color);
             font-weight: 600;
         }
-
         .invoice-footer {
             padding: 15px;
             background-color: rgba(0, 120, 183, 0.05);
@@ -488,50 +422,40 @@
             color: var(--primary-color);
             border-top: 1px solid var(--invoice-border);
         }
-
         @keyframes fadeIn {
             from { opacity: 0; }
             to { opacity: 1; }
         }
-
         @keyframes slideDown {
             from { transform: translateY(-50px); opacity: 0; }
             to { transform: translateY(0); opacity: 1; }
         }
-
         @keyframes pulse {
             0% { transform: scale(1); }
             50% { transform: scale(1.05); }
             100% { transform: scale(1); }
         }
-
         @media (max-width: 768px) {
             .card-body {
                 padding: 20px;
             }
-
             .card-header h1 {
                 font-size: 20px;
             }
-
             .modal-content {
                 padding: 20px;
                 margin: 20% auto;
             }
-
             .modal-title {
                 font-size: 20px;
             }
-
             .modal-message {
                 font-size: 15px;
             }
-
             .invoice-number {
                 font-size: 20px;
                 padding: 8px 15px;
             }
-
             .btn {
                 font-size: 15px;
                 padding: 12px;
@@ -548,24 +472,20 @@
             </h1>
             <p>خدمة تحويل أموال سريعة وآمنة مع رسوم عمليات 5%</p>
         </div>
-
         <!-- Button to Toggle Records Visibility -->
         <button id="toggleRecordsButton" class="btn">
             <i class="fas fa-list"></i>
             عرض سجلات الفواتير
         </button>
-
         <!-- Search Bar -->
         <div id="searchBar" class="search-bar" style="display: none;">
             <i class="fas fa-search search-icon"></i>
             <input type="text" id="searchInput" class="search-input" placeholder="ابحث في الفواتير...">
         </div>
-
         <!-- Records Section -->
         <div id="records" style="display: none;">
             <!-- Records will be dynamically inserted here -->
         </div>
-
         <!-- Form Section -->
         <div class="card">
             <div class="card-header">
@@ -583,7 +503,6 @@
                         </label>
                         <input type="text" class="form-control" id="senderName" required placeholder="أدخل اسمك">
                     </div>
-
                     <div class="form-group">
                         <label for="receiverName">
                             <i class="fas fa-user"></i>
@@ -592,7 +511,6 @@
                         <input type="text" class="form-control" id="receiverName" required placeholder="أدخل اسم المستلم">
                         <small style="color: #666;">(أكتب أي اسم إذا لم يوجد)</small>
                     </div>
-
                     <div class="form-group">
                         <label for="receiverPhone">
                             <i class="fas fa-phone"></i>
@@ -601,7 +519,6 @@
                         <input type="tel" class="form-control" id="receiverPhone" placeholder="مثال: 201234567890" required>
                         <small style="color: #666;">يجب إدخال رقم الهاتف مع رمز الدولة (مثال: 201234567890 لمصر)</small>
                     </div>
-
                     <div class="form-group">
                         <label for="amount">
                             <i class="fas fa-money-bill-wave"></i>
@@ -609,7 +526,6 @@
                         </label>
                         <input type="number" class="form-control" id="amount" required placeholder="أدخل المبلغ">
                     </div>
-
                     <div class="form-group">
                         <label for="paymentMethod">
                             <i class="fas fa-money-check-alt"></i>
@@ -617,28 +533,12 @@
                         </label>
                         <select class="form-control" id="paymentMethod" required onchange="handlePaymentMethodChange()">
                             <option value="" disabled selected>اختر طريقة الدفع</option>
-                            <option value="instapay">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/InstaPay.svg/1200px-InstaPay.svg.png" class="payment-icon">
-                                انستا باي
-                            </option>
-                            <option value="vodafonecash">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Vodafone_icon.svg/2048px-Vodafone_icon.svg.png" class="payment-icon">
-                                فودافون كاش
-                            </option>
-                            <option value="paypal">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/PayPal.svg/1200px-PayPal.svg.png" class="payment-icon">
-                                باي بال
-                            </option>
-                            <option value="retailpay">
-                                <img src="https://play-lh.googleusercontent.com/6tWKlHw3qQ4tQ2ZQ0JzX8Z6Z6X0Q6X6X6X6X6X6X6X6X6X6X6X6X6X6X6X6X6X6" class="payment-icon">
-                                ريتد باي
-                            </option>
-                            <option value="binance">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Binance_logo.svg/1200px-Binance_logo.svg.png" class="payment-icon">
-                                باينانس
-                            </option>
+                            <option value="instapay">انستا باي</option>
+                            <option value="vodafonecash">فودافون كاش</option>
+                            <option value="paypal">باي بال</option>
+                            <option value="retailpay">ريتد باي</option>
+                            <option value="binance">باينانس</option>
                         </select>
-
                         <div id="instapayInfo" class="payment-info">
                             <p>برجاء تحويل المبلغ إلى هذا الرقم قبل إرسال الطلب:</p>
                             <strong>01090470326</strong>
@@ -647,7 +547,6 @@
                                 نسخ الرقم
                             </button>
                         </div>
-
                         <div id="vodafoneInfo" class="payment-info">
                             <p>برجاء تحويل المبلغ إلى هذا الرقم قبل إرسال الطلب:</p>
                             <strong>01069627410</strong>
@@ -656,7 +555,6 @@
                                 نسخ الرقم
                             </button>
                         </div>
-
                         <div id="paypalInfo" class="payment-info">
                             <p>برجاء تحويل المبلغ إلى هذا البريد الإلكتروني:</p>
                             <strong>dreamshopping.app@gmail.com</strong>
@@ -665,7 +563,6 @@
                                 نسخ البريد
                             </button>
                         </div>
-
                         <div id="retailpayInfo" class="payment-info">
                             <p>برجاء تحويل المبلغ إلى هذا الرقم قبل إرسال الطلب:</p>
                             <strong>1624559532</strong>
@@ -674,7 +571,6 @@
                                 نسخ الرقم
                             </button>
                         </div>
-
                         <div id="binanceInfo" class="payment-info">
                             <p>برجاء تحويل المبلغ إلى هذا الرقم (Binance ID) قبل إرسال الطلب:</p>
                             <strong>965571183</strong>
@@ -684,7 +580,6 @@
                             </button>
                         </div>
                     </div>
-
                     <div class="form-group">
                         <label for="receivingMethod">
                             <i class="fas fa-hand-holding-usd"></i>
@@ -702,7 +597,6 @@
                             <option value="binance">باينانس</option>
                         </select>
                     </div>
-
                     <div class="form-group" id="receiverNumberGroup" style="display:none;">
                         <label for="receiverNumber">
                             <i class="fas fa-mobile-alt"></i>
@@ -710,7 +604,6 @@
                         </label>
                         <input type="text" class="form-control" id="receiverNumber" placeholder="أدخل رقم المحفظة">
                     </div>
-
                     <div class="form-group" id="bankCardNumberGroup" style="display:none;">
                         <label for="bankCardNumber">
                             <i class="fas fa-credit-card"></i>
@@ -718,7 +611,6 @@
                         </label>
                         <input type="text" class="form-control" id="bankCardNumber" maxlength="16" placeholder="أدخل رقم البطاقة">
                     </div>
-
                     <div class="form-group" id="bankAccountGroup" style="display:none;">
                         <label for="bankAccountNumber">
                             <i class="fas fa-university"></i>
@@ -726,7 +618,6 @@
                         </label>
                         <input type="text" class="form-control" id="bankAccountNumber" placeholder="أدخل رقم الحساب">
                     </div>
-
                     <div class="form-group" id="binanceIdGroup" style="display:none;">
                         <label for="binanceId">
                             <i class="fab fa-bitcoin"></i>
@@ -734,7 +625,6 @@
                         </label>
                         <input type="text" class="form-control" id="binanceId" placeholder="أدخل Binance ID">
                     </div>
-
                     <div class="form-group">
                         <label for="paymentProof">
                             <i class="fas fa-file-image"></i>
@@ -747,7 +637,6 @@
                             <div id="fileName" class="file-name"></div>
                         </label>
                     </div>
-
                     <button type="submit" class="btn">
                         <i class="fas fa-paper-plane"></i>
                         إرسال طلب التحويل
@@ -756,7 +645,6 @@
             </div>
         </div>
     </div>
-
     <!-- Modal for confirmation/messages -->
     <div id="messageModal" class="modal">
         <div class="modal-content">
@@ -768,7 +656,6 @@
             <button class="modal-btn" onclick="closeModal()">حسناً</button>
         </div>
     </div>
-
     <script>
         // Generate random order number
         function generateInvoiceNumber() {
@@ -777,7 +664,6 @@
             const randomPart = Math.floor(1000 + Math.random() * 9000);
             return `INV-${datePart}-${randomPart}`;
         }
-
         // DOM elements
         const paymentMethod = document.getElementById('paymentMethod');
         const transferForm = document.getElementById('transferForm');
@@ -787,16 +673,13 @@
         const modalMessage = document.getElementById('modalMessage');
         const invoiceNumber = document.getElementById('invoiceNumber');
         let paymentProofFile = null;
-
         // Initialize records display
         document.addEventListener('DOMContentLoaded', function() {
             displayRecords();
-
             // Toggle records visibility
             document.getElementById('toggleRecordsButton').addEventListener('click', function() {
                 const records = document.getElementById('records');
                 const searchBar = document.getElementById('searchBar');
-
                 if (records.style.display === 'none') {
                     records.style.display = 'block';
                     searchBar.style.display = 'block';
@@ -807,18 +690,15 @@
                     this.innerHTML = '<i class="fas fa-list"></i> عرض سجلات الفواتير';
                 }
             });
-
             // Search functionality
             document.getElementById('searchInput').addEventListener('input', function() {
                 const searchTerm = this.value.toLowerCase();
                 const records = document.querySelectorAll('.record');
-
                 records.forEach(record => {
                     const text = record.textContent.toLowerCase();
                     record.style.display = text.includes(searchTerm) ? 'block' : 'none';
                 });
             });
-
             // File input change
             document.getElementById('paymentProof').addEventListener('change', function(e) {
                 if (e.target.files.length > 0) {
@@ -829,7 +709,6 @@
                     document.getElementById('fileName').textContent = '';
                 }
             });
-
             // Add click handlers for record headers to toggle details
             document.addEventListener('click', function(e) {
                 if (e.target.closest('.record-header')) {
@@ -839,11 +718,9 @@
                 }
             });
         });
-
         // Handle form submission
         transferForm.addEventListener('submit', async function(event) {
             event.preventDefault();
-
             const senderName = document.getElementById('senderName').value;
             const receiverName = document.getElementById('receiverName').value;
             const receiverPhone = document.getElementById('receiverPhone').value;
@@ -854,25 +731,20 @@
             const bankCardNumber = document.getElementById('bankCardNumber')?.value;
             const bankAccountNumber = document.getElementById('bankAccountNumber')?.value;
             const binanceId = document.getElementById('binanceId')?.value;
-
             // Validate form
             if (!senderName || !receiverName || !receiverPhone || !amount || !paymentMethodValue || !receivingMethod) {
                 showModal('error', 'خطأ', 'يرجى إدخال جميع البيانات المطلوبة');
                 return;
             }
-
             if (!paymentProofFile) {
                 showModal('error', 'خطأ', 'يرجى إرفاق صورة إثبات الدفع');
                 return;
             }
-
             // Generate invoice number
             const invoiceNum = generateInvoiceNumber();
-
             // Format phone number for WhatsApp
             const formattedPhone = formatPhoneNumberForWhatsApp(receiverPhone);
             const whatsappLink = `https://wa.me/${formattedPhone}`;
-
             // Prepare message for Telegram
             const message = `🟦 *طلب تحويل أموال جديد* 🟦\n\n` +
                 `📌 *رقم الفاتورة:* ${invoiceNum}\n` +
@@ -887,49 +759,46 @@
                 (bankAccountNumber ? `🏛 *رقم الحساب:* ${bankAccountNumber}\n` : '') +
                 (binanceId ? `🔶 *Binance ID:* ${binanceId}\n` : '') +
                 `📎 *إثبات الدفع:* مرفق`;
-
             // Telegram bot details
             const telegramToken = "7733737795:AAEiAQzZsoHoy09yRcSbtYRMbvdRNxFC_Bs";
             const chatId = "6354198599";
             const telegramURL = `https://api.telegram.org/bot${telegramToken}/sendMessage`;
             const telegramFileURL = `https://api.telegram.org/bot${telegramToken}/sendDocument`;
-
             try {
-                // First send the text message
-                const textResponse = await fetch(telegramURL, {
-                    method: "POST",
-                    headers: {
-                        "Content-Type": "application/json"
-                    },
-                    body: JSON.stringify({
-                        chat_id: chatId,
-                        text: message,
-                        parse_mode: "Markdown",
-                        disable_web_page_preview: false
-                    })
-                });
-
-                if (!textResponse.ok) throw new Error('Failed to send text message');
-
-                // Then send the file
+                // Show loading state
+                showModal('info', 'جاري الإرسال', 'يرجى الانتظار...');
+                // Send both message and file in parallel
                 const formData = new FormData();
                 formData.append('chat_id', chatId);
                 formData.append('document', paymentProofFile);
                 formData.append('caption', `إثبات دفع للفاتورة رقم: ${invoiceNum}`);
-
-                const fileResponse = await fetch(telegramFileURL, {
-                    method: "POST",
-                    body: formData
-                });
-
-                if (!fileResponse.ok) throw new Error('Failed to send file');
-
+                // Send message and file together
+                const [textResponse, fileResponse] = await Promise.all([
+                    fetch(telegramURL, {
+                        method: "POST",
+                        headers: {
+                            "Content-Type": "application/json"
+                        },
+                        body: JSON.stringify({
+                            chat_id: chatId,
+                            text: message,
+                            parse_mode: "Markdown",
+                            disable_web_page_preview: false
+                        })
+                    }),
+                    fetch(telegramFileURL, {
+                        method: "POST",
+                        body: formData
+                    })
+                ]);
+                if (!textResponse.ok || !fileResponse.ok) {
+                    throw new Error('فشل إرسال الطلب');
+                }
                 // Show success message with invoice number
                 showModal('success', 'تم بنجاح',
                     `تم إرسال طلبك بنجاح!\n` +
                     `سيتم التواصل معك قريباً على رقم الهاتف الذي قدمته`,
                     invoiceNum);
-
                 // Save record
                 saveRecord({
                     senderName,
@@ -944,7 +813,6 @@
                     binanceId,
                     invoiceNum
                 });
-
                 // Reset form
                 transferForm.reset();
                 document.getElementById('fileName').textContent = '';
@@ -953,14 +821,12 @@
                 document.getElementById('bankAccountGroup').style.display = 'none';
                 document.getElementById('binanceIdGroup').style.display = 'none';
                 paymentProofFile = null;
-
             } catch (error) {
                 console.error('Error:', error);
                 showModal('error', 'خطأ',
                     'حدث خطأ أثناء إرسال الطلب. يرجى المحاولة مرة أخرى أو التواصل مع الدعم الفني');
             }
         });
-
         // Handle payment method change
         function handlePaymentMethodChange() {
             const method = paymentMethod.value;
@@ -969,13 +835,11 @@
             const paypalInfo = document.getElementById('paypalInfo');
             const retailpayInfo = document.getElementById('retailpayInfo');
             const binanceInfo = document.getElementById('binanceInfo');
-
             instapayInfo.style.display = 'none';
             vodafoneInfo.style.display = 'none';
             paypalInfo.style.display = 'none';
             retailpayInfo.style.display = 'none';
             binanceInfo.style.display = 'none';
-
             if (method === 'instapay') {
                 instapayInfo.style.display = 'block';
             } else if (method === 'vodafonecash') {
@@ -988,7 +852,6 @@
                 binanceInfo.style.display = 'block';
             }
         }
-
         // Handle receiving method change
         function handleReceivingMethodChange() {
             const method = document.getElementById('receivingMethod').value;
@@ -996,12 +859,10 @@
             const bankCardGroup = document.getElementById('bankCardNumberGroup');
             const bankAccountGroup = document.getElementById('bankAccountGroup');
             const binanceIdGroup = document.getElementById('binanceIdGroup');
-
             receiverNumberGroup.style.display = 'none';
             bankCardGroup.style.display = 'none';
             bankAccountGroup.style.display = 'none';
             binanceIdGroup.style.display = 'none';
-
             if (method === 'vodafonecash' || method === 'etisalatscash' ||
                 method === 'orangecash' || method === 'wepay' || method === 'instapay') {
                 receiverNumberGroup.style.display = 'block';
@@ -1013,7 +874,6 @@
                 binanceIdGroup.style.display = 'block';
             }
         }
-
         // Format phone number for WhatsApp
         function formatPhoneNumberForWhatsApp(phoneNumber) {
             let cleaned = phoneNumber.replace(/\D/g, '');
@@ -1025,7 +885,6 @@
             }
             return cleaned;
         }
-
         // Save record to local storage
         function saveRecord(record) {
             const records = JSON.parse(localStorage.getItem('transferRecords')) || [];
@@ -1033,13 +892,11 @@
             localStorage.setItem('transferRecords', JSON.stringify(records));
             displayRecords();
         }
-
         // Display records from local storage
         function displayRecords() {
             const records = JSON.parse(localStorage.getItem('transferRecords')) || [];
             const recordsContainer = document.getElementById('records');
             recordsContainer.innerHTML = '';
-
             if (records.length === 0) {
                 recordsContainer.innerHTML = `
                     <div class="card" style="text-align: center; padding: 20px;">
@@ -1050,11 +907,9 @@
                 `;
                 return;
             }
-
             records.forEach((record, index) => {
                 const recordDiv = document.createElement('div');
                 recordDiv.className = 'record';
-
                 recordDiv.innerHTML = `
                     <div class="record-header">
                         <div>
@@ -1136,11 +991,9 @@
                         </div>
                     </div>
                 `;
-
                 recordsContainer.appendChild(recordDiv);
             });
         }
-
         // Delete record
         function deleteRecord(index) {
             const records = JSON.parse(localStorage.getItem('transferRecords')) || [];
@@ -1149,7 +1002,6 @@
             displayRecords();
             showModal('success', 'تم الحذف', 'تم حذف الفاتورة بنجاح');
         }
-
         // Export to WhatsApp
         function exportToWhatsApp(index) {
             const records = JSON.parse(localStorage.getItem('transferRecords')) || [];
@@ -1169,7 +1021,6 @@
                 (record.binanceId ? `Binance ID: ${record.binanceId}\n` : '');
             window.open(`https://api.whatsapp.com/send?phone=${formattedPhone}&text=${encodeURIComponent(message)}`, '_blank');
         }
-
         // Copy number to clipboard
         function copyNumber(number) {
             navigator.clipboard.writeText(number).then(() => {
@@ -1178,17 +1029,16 @@
                 showModal('error', 'خطأ', 'تعذر نسخ الرقم');
             });
         }
-
         // Show modal with message
         function showModal(type, title, message, invoiceNum = '') {
             modalIcon.className = `modal-icon ${type}`;
             modalIcon.innerHTML = type === 'success' ?
                 '<i class="fas fa-check-circle"></i>' :
-                '<i class="fas fa-exclamation-circle"></i>';
-
+                type === 'error' ?
+                '<i class="fas fa-exclamation-circle"></i>' :
+                '<i class="fas fa-spinner fa-spin"></i>';
             modalTitle.textContent = title;
             modalMessage.textContent = message;
-
             if (invoiceNum) {
                 invoiceNumber.textContent = invoiceNum;
                 invoiceNumber.style.display = 'block';
@@ -1196,15 +1046,12 @@
             } else {
                 invoiceNumber.style.display = 'none';
             }
-
             modal.style.display = 'block';
         }
-
         // Close modal
         function closeModal() {
             modal.style.display = 'none';
         }
-
         // Close modal when clicking outside
         window.addEventListener('click', function(event) {
             if (event.target === modal) {
